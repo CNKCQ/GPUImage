@@ -62,7 +62,7 @@
 	if (cell == nil) 
 	{
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"FilterCell"];
-		cell.textLabel.textColor = [UIColor blackColor];
+		cell.textLabel.textColor = [UIColor redColor];
 	}		
 	
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;

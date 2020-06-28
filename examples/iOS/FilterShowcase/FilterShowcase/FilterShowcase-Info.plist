@@ -11,7 +11,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.sunsetlakesoftware.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
+	<string>9.0</string>
 	<key>CFBundleName</key>
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundlePackageType</key>
@@ -43,5 +43,26 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    <key>NSCameraUsageDescription</key>
+    <string>我们会在拍摄视频和照片素材时访问您的相机权限</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>我们将使用你的位置以为你推荐附近的优质内容</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>我们将使用你的位置以为你推荐附近的优质内容</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>我们将使用你的位置以为你推荐附近的优质内容</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>用于语音搜索、语音对话等需要获取语音信息的功能</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>我们会在拍摄视频和照片素材时访问您的相机权限</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>我们会在拍摄视频和照片素材时访问您的相机权限</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>用于响应您的语⾳指令，以完成语音搜索等功能</string>
 </dict>
 </plist>
